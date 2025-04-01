@@ -13,7 +13,7 @@ function Navbar() {
         <li>Portfolio</li>
         <li>Contact</li>
         </ul>
-        <div className="nav-connecr">Connecr with Me</div>
+        <div className="nav-connect">Connect with Me</div>
 
     </div>
   )
