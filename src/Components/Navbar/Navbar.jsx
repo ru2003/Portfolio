@@ -1,9 +1,21 @@
 import React from 'react'
-import './navbar.css'
+import './Navbar.css'
+import logo from '../../assets/logo.svg'
 
 function Navbar() {
   return (
-    <div classname='navbar'></div>
+    <div className='navbar'>
+        <img src={logo} alt=" " />
+        <ul className="nav-menu">
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+        </ul>
+        <div className="nav-connecr">Connecr with Me</div>
+
+    </div>
   )
 }
 
