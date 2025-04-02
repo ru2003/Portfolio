@@ -10,7 +10,7 @@ const  Hero = () => {
         <p> I am Frontend developer from India , japan with 5 years of experience.</p>
         <div className="hero-action">
             <div className="hero-connect">Connect with me</div>
-            <div className="hero-rresume">My Resume</div>
+            <div className="hero-resume">My Resume</div>
         </div>
     </div>
   )
